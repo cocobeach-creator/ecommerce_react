@@ -7,3 +7,9 @@ a{
   text-decoration: none;
   color: black;
 }
+
+
+/* Universal selector to stop margin and padding from affecting element size */
+*{
+  box-sizing: border-box;
+}
